@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.emcabezado{
+    height: 30px;
+    background-color: #fec21d;
+}
+.navbar{
+    background-color: black;
+    height: 100px;
+    
+}
+.navbar-nav .nav-link {
+    color: white; 
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #fec21d; 
+}
+.icon1{
+    margin-right: 10px;
+}
+
+.presentacion{
+    margin: 100px;
+}
+
+
+
+/*servicios*/
+.servicio-col .img-servicio-wrapper {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.img-servicio-wrapper img {
+  height: 220px;
+  object-fit: cover;
+  filter: brightness(40%);
+  transition: transform 1s ease, filter 1s ease;
+  display: block;
+  width: 100%;
+}
+
+.img-servicio-wrapper:hover img {
+  transform: scale(1.1);
+  filter: brightness(80%);
+}
+
+.img-servicio-wrapper .overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-weight: bold;
+  background-color: rgba(0,0,0,0.5);
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  pointer-events: none; 
+  text-align: center;
+}
+
+/*equipo*/
+
+.team-card {
+  text-align: center;
+  background: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  height: 100%; /* todas las tarjetas igual de alto */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 95px 20px 20px 20px; /* padding-top aumentado a 95px para la imagen */
+}
+
+.team-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: -75px;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
+
+.team-card h5 {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.team-card p {
+  color: #6c757d;
+  margin-top: 10px;
+}
+
+/* Ajuste general para que el container tenga más espacio arriba y abajo */
+.container.py-5 {
+  padding-top: 120px !important;
+  padding-bottom: 120px !important;
+}
+
+
+
+/*Noticias-------------------------------------------------------------*/
+.noticia-img {
+  height: 180px; /* altura más pequeña */
+  object-fit: cover; /* mantiene proporción y recorta si es necesario */
+}
+ /*embabezado secundario---------------------------------------------------------------------------------*/
+
+.hero-abogados {
+    min-height: 250px; /* más compacto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* algo de espacio arriba y abajo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-abogados h1 {
+    font-size: 2.2rem; /* un poco más pequeño */
+    font-weight: 700;
+}
+
+.breadcrumb {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.breadcrumb-item a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    color: #fff;
+    font-weight: bold;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "»";
+    color: #6c63ff;
+    padding: 0 8px;
+}
+
+
+
+/* servicios----------------------------------------------------------------------------*/
+  .text-justify {
+    text-align: justify;
+  }
+  .section-img {
+    width: 80%; /* Imagen más pequeña */
+    max-width: 300px; /* Evita que sea demasiado grande */
+    height: auto;
+    border-radius: 8px;
+  }
+  .section {
+    margin-bottom: 60px;
+  }
+  .section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el texto */
+    
+  }
+  .section-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+  
